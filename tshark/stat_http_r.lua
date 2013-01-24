@@ -2,7 +2,8 @@
 -- Usage shark -r mycap.pcap -Xlua_script:stat_http.lua
 
 -- declare the tap
-tap_http = nil
+tap_http_rq = nil
+tap_http_rp = nil
 
 -- declare counters
 C_GET = 0
